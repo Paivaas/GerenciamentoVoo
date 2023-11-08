@@ -2,7 +2,7 @@ package br.senai.sp.jandira.model;
 
 public class Voo {
 
-    int numeroVoo, capacidadePassageiros;
+    private int numeroVoo, capacidadePassageiros;
     String companhia, origem, destino, horaPatida, dataPartida;
 
     public void setNumeroVoo(int numeroVoo) {
